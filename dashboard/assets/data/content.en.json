@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "name": "Grigorii",
+    "title": "Product Analyst (Game Analytics & AI Integration)",
+    "updatedAt": "2026-03-05"
+  },
+  "nav": {
+    "projects": "Projects",
+    "competencies": "Competencies",
+    "roadmap": "Roadmap",
+    "contact": "Contact"
+  },
+  "sections": {
+    "competenciesTitle": "Competency Dashboard",
+    "competenciesNote": "Core capabilities backed by shipped artifacts.",
+    "projectsTitle": "Projects Mosaic",
+    "projectsNote": "Story + KPI hybrid case studies with decision context.",
+    "roadmapTitle": "30/60/90 Transition Plan",
+    "roadmapNote": "Internal growth in Heapp plus external interview pipeline.",
+    "contactTitle": "Contact & Positioning",
+    "contactNote": "Open to Product Analyst / Game Analyst / AI Ops conversations."
+  },
+  "hero": {
+    "kicker": "Air-Soft Cold Portfolio",
+    "headline": "From support signals to product decisions.",
+    "subheadline": "I build analyst-grade outputs from player feedback and operations data, then turn them into prioritized product actions.",
+    "ctas": [
+      {
+        "label": "Open CV",
+        "href": "../draft_resume.md",
+        "kind": "primary"
+      },
+      {
+        "label": "Open Case Pack",
+        "href": "../README.md",
+        "kind": "secondary"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact",
+        "kind": "secondary"
+      }
+    ]
+  },
+  "filters": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "product-analytics",
+      "label": "Product Analytics"
+    },
+    {
+      "id": "feedback-intelligence",
+      "label": "Feedback Intelligence"
+    },
+    {
+      "id": "support-automation",
+      "label": "Support Automation"
+    },
+    {
+      "id": "ai-integration",
+      "label": "AI Integration"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "kpi-1",
+      "label": "Structured Product Items",
+      "value": "23",
+      "note": "Dig Dig Die consolidated priorities"
+    },
+    {
+      "id": "kpi-2",
+      "label": "Critical Bug/UX Themes",
+      "value": "6",
+      "note": "Mapped to P0/P1/P2 with KPI impact"
+    },
+    {
+      "id": "kpi-3",
+      "label": "Catalog Coverage",
+      "value": "112+",
+      "note": "Darkest AFK searchable support items"
+    },
+    {
+      "id": "kpi-4",
+      "label": "Domain Experience",
+      "value": "3.5+ years",
+      "note": "Support + product-adjacent operations"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-darkest-afk",
+      "slug": "darkest-afk",
+      "title": "Darkest AFK Support Compensation Catalog",
+      "tagline": "Support workflow automation",
+      "context": "Darkest AFK support/admin workflows required fast, consistent compensation package assembly.",
+      "problem": "Manual item lookup and JSON payload preparation created repetitive friction and formatting risk.",
+      "dataSources": [
+        "items.json metadata",
+        "Support workflow requirements",
+        "init_info payload format"
+      ],
+      "method": [
+        "Built static tool in HTML/CSS/JS",
+        "Added search, filters, bilingual labels, multi-select and quantity controls",
+        "Implemented one-click JSON generation and accessibility shortcuts"
+      ],
+      "insights": [
+        "Deterministic output is more valuable than visual complexity for operators",
+        "Presets and bulk actions reduce cognitive load in repetitive support tasks"
+      ],
+      "decision": "Ship an interface-first compensation workflow with standardized payload generation.",
+      "impact": [
+        "112+ indexed items in one searchable catalog",
+        "Unified compensation package format",
+        "Lower manual copy/paste friction"
+      ],
+      "nextExperiment": [
+        "Track median package assembly time",
+        "Measure payload formatting error rate",
+        "Compare compensation-related handling time before/after"
+      ],
+      "artifacts": [
+        {
+          "label": "Live catalog (local)",
+          "path": "file:///Users/grisaavdeev/study/darkest-afk-item-catalog/docs/index.html"
+        },
+        {
+          "label": "Repository",
+          "path": "https://github.com/gavdeev/darkest-afk-item-catalog"
+        }
+      ],
+      "chips": [
+        "112+ items",
+        "JSON generation",
+        "Bilingual UX"
+      ],
+      "competencies": [
+        "support-automation",
+        "ai-integration"
+      ],
+      "previewImage": "assets/img/project-darkest-afk.svg"
+    },
+    {
+      "id": "project-vacation-cafe",
+      "slug": "vacation-cafe",
+      "title": "Vacation Cafe Simulator Retention Analysis",
+      "tagline": "Cozy flow & retention intelligence",
+      "context": "The team needed decision-ready understanding of where cozy gameplay turns into friction.",
+      "problem": "Player sentiment across community channels was fragmented and hard to convert into product actions.",
+      "dataSources": [
+        "Steam feedback snapshots",
+        "Discord reports and discussions",
+        "Genre benchmark observations"
+      ],
+      "method": [
+        "Clustered qualitative feedback into repeatable friction themes",
+        "Mapped themes to D1/D7/D30 and session/churn proxies",
+        "Built action-oriented hypotheses for short validation cycles"
+      ],
+      "insights": [
+        "Friction rises around 6-8 hours for a subset of players",
+        "Complexity spike around Level 4-5 can break cozy flow",
+        "Sensory quality and low-friction interactions strongly affect retention"
+      ],
+      "decision": "Create a practical retention recommendation set with KPI mapping and rollout logic.",
+      "impact": [
+        "Converted unstructured discussion into a product-ready analysis artifact",
+        "Defined hypotheses for QoL, progression pacing and engagement loops"
+      ],
+      "nextExperiment": [
+        "Run one friction-reduction test",
+        "Track D1 delta and quit<10m",
+        "Measure session completion change"
+      ],
+      "artifacts": [
+        {
+          "label": "Main insight file (local)",
+          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/vacation%20insight.txt"
+        },
+        {
+          "label": "Case notes",
+          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/GDD/09_VCS_Market_Feedback_Analysis_2026-03-04.md"
+        }
+      ],
+      "chips": [
+        "6-8h friction signal",
+        "D1/D7/D30 mapping",
+        "Actionable hypotheses"
+      ],
+      "competencies": [
+        "product-analytics",
+        "feedback-intelligence"
+      ],
+      "previewImage": "assets/img/project-vacation-cafe.svg"
+    },
+    {
+      "id": "project-dig-dig-die",
+      "slug": "dig-dig-die",
+      "title": "Dig Dig Die Feedback Intelligence Dashboard",
+      "tagline": "Multi-source bug and backlog intelligence",
+      "context": "Dig Dig Die required one structured lens for bugs, UX risk and player feedback priorities.",
+      "problem": "Raw Steam/Discord/community data was noisy and difficult to prioritize across teams.",
+      "dataSources": [
+        "Steam player feedback",
+        "Discord/community reports",
+        "Structured dashboard HTML and CSV outputs"
+      ],
+      "method": [
+        "Normalized signals into issue clusters",
+        "Added priority, effort, risk, horizon and KPI fields",
+        "Built P0/P1/P2 and 30/60/90 decision frame"
+      ],
+      "insights": [
+        "23 structured items including 6 critical bug/UX issues",
+        "3 key feedback themes with business impact",
+        "High-risk areas concentrated in coop reliability and onboarding"
+      ],
+      "decision": "Deliver backlog-ready prioritization with measurable KPI targets and implementation windows.",
+      "impact": [
+        "Traceable flow from raw feedback to prioritized actions",
+        "Faster alignment potential across support/product/dev"
+      ],
+      "nextExperiment": [
+        "Ship top-2 P0 fixes",
+        "Measure Invite Success Rate and D1 over 2 weeks",
+        "Track support response/resolution trend"
+      ],
+      "artifacts": [
+        {
+          "label": "Dashboard HTML (local)",
+          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_dashboard_ru.html"
+        },
+        {
+          "label": "Structured CSV (local)",
+          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_reports_ru.csv"
+        }
+      ],
+      "chips": [
+        "23 structured items",
+        "6 critical issues",
+        "30/60/90 roadmap"
+      ],
+      "competencies": [
+        "product-analytics",
+        "feedback-intelligence",
+        "ai-integration"
+      ],
+      "previewImage": "assets/img/project-dig-dig-die.svg"
+    }
+  ],
+  "roadmap": [
+    {
+      "phase": "0-30 Days",
+      "window": "Mar 6 - Apr 4, 2026",
+      "focus": "Package evidence and secure internal 20% pilot slot",
+      "kpi": "Pilot scope approved + baseline metrics aligned"
+    },
+    {
+      "phase": "31-60 Days",
+      "window": "Apr 5 - May 4, 2026",
+      "focus": "Run pilot cycle #1 and ship two analytical outputs",
+      "kpi": "At least one decision supported by analysis"
+    },
+    {
+      "phase": "61-90 Days",
+      "window": "May 5 - Jun 3, 2026",
+      "focus": "Pilot readout + transition path or external scale-up",
+      "kpi": "Clear internal path or 10-15% response rate externally"
+    }
+  ],
+  "contact": {
+    "items": [
+      {
+        "label": "Email",
+        "value": "grigorii584@gmail.com",
+        "href": "mailto:grigorii584@gmail.com"
+      },
+      {
+        "label": "Phone",
+        "value": "+7-988-492-9938"
+      },
+      {
+        "label": "Location",
+        "value": "Volgograd, Russia"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "Add LinkedIn URL",
+        "href": "#"
+      }
+    ],
+    "narrative": [
+      "I operate at the intersection of support reality, player signals, and product prioritization.",
+      "Current target role: Product Analyst (games), with focus on retention friction, quality signals, and AI-enabled workflows.",
+      "This dashboard is EN-first for hiring managers and product leads, with RU toggle for internal communication."
+    ]
+  },
+  "footer": {
+    "version": "Portfolio Dashboard v1.0",
+    "updatedPrefix": "Updated"
+  },
+  "modal": {
+    "openLabel": "Open details",
+    "fields": {
+      "context": "Context",
+      "problem": "Problem",
+      "dataSources": "Data Sources",
+      "method": "Method",
+      "insights": "Insights",
+      "decision": "Decision",
+      "impact": "Impact",
+      "nextExperiment": "Next Experiment"
+    },
+    "artifactTitle": "Artifacts"
+  }
+}

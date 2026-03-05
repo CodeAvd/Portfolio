@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "name": "Григорий",
+    "title": "Product Analyst (Game Analytics & AI Integration)",
+    "updatedAt": "2026-03-05"
+  },
+  "nav": {
+    "projects": "Проекты",
+    "competencies": "Компетенции",
+    "roadmap": "Роадмап",
+    "contact": "Контакты"
+  },
+  "sections": {
+    "competenciesTitle": "Дашборд компетенций",
+    "competenciesNote": "Ключевые навыки, подтвержденные реальными артефактами.",
+    "projectsTitle": "Мозаика проектов",
+    "projectsNote": "Гибридный формат: история решения + KPI-эффект.",
+    "roadmapTitle": "План перехода 30/60/90",
+    "roadmapNote": "Внутренний рост в Heapp + параллельный внешний трек.",
+    "contactTitle": "Контакты и позиционирование",
+    "contactNote": "Открыт к ролям Product Analyst / Game Analyst / AI Ops."
+  },
+  "hero": {
+    "kicker": "Воздушное холодное портфолио",
+    "headline": "От сигналов саппорта к продуктовым решениям.",
+    "subheadline": "Собираю аналитические выводы из фидбека игроков и операционных данных, затем превращаю их в приоритизированные продуктовые действия.",
+    "ctas": [
+      {
+        "label": "Открыть CV",
+        "href": "../draft_resume.md",
+        "kind": "primary"
+      },
+      {
+        "label": "Открыть пакет кейсов",
+        "href": "../README.md",
+        "kind": "secondary"
+      },
+      {
+        "label": "Связаться",
+        "href": "#contact",
+        "kind": "secondary"
+      }
+    ]
+  },
+  "filters": [
+    {
+      "id": "all",
+      "label": "Все"
+    },
+    {
+      "id": "product-analytics",
+      "label": "Product Analytics"
+    },
+    {
+      "id": "feedback-intelligence",
+      "label": "Feedback Intelligence"
+    },
+    {
+      "id": "support-automation",
+      "label": "Support Automation"
+    },
+    {
+      "id": "ai-integration",
+      "label": "AI Integration"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "kpi-1",
+      "label": "Структурированные пункты",
+      "value": "23",
+      "note": "Консолидация приоритетов Dig Dig Die"
+    },
+    {
+      "id": "kpi-2",
+      "label": "Критические баг/UX темы",
+      "value": "6",
+      "note": "Сопоставлены с P0/P1/P2 и KPI"
+    },
+    {
+      "id": "kpi-3",
+      "label": "Покрытие каталога",
+      "value": "112+",
+      "note": "Предметы Darkest AFK для саппорта"
+    },
+    {
+      "id": "kpi-4",
+      "label": "Опыт в домене",
+      "value": "3.5+ года",
+      "note": "Support + продуктово-операционный трек"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-darkest-afk",
+      "slug": "darkest-afk",
+      "title": "Darkest AFK Support Compensation Catalog",
+      "tagline": "Автоматизация support workflow",
+      "context": "В операциях Darkest AFK нужна была быстрая и единообразная сборка компенсационных пакетов.",
+      "problem": "Ручной поиск предметов и сборка JSON-пакетов создавали рутину и риск форматных ошибок.",
+      "dataSources": [
+        "Метаданные items.json",
+        "Требования support/admin workflow",
+        "Формат init_info payload"
+      ],
+      "method": [
+        "Собран статический инструмент на HTML/CSS/JS",
+        "Добавлены поиск, фильтры, билингвальные метки, multiselect и количества",
+        "Реализована генерация JSON в один клик и accessibility-shortcuts"
+      ],
+      "insights": [
+        "Для операторов важнее предсказуемый output, чем визуальная сложность",
+        "Пресеты и bulk-действия снижают когнитивную нагрузку"
+      ],
+      "decision": "Отгружен интерфейсный workflow со стандартизированной генерацией payload.",
+      "impact": [
+        "112+ предметов в едином каталоге",
+        "Унифицированный формат компенсационных пакетов",
+        "Снижение ручного copy/paste трения"
+      ],
+      "nextExperiment": [
+        "Измерить median time сборки пакета",
+        "Отследить частоту форматных ошибок",
+        "Сравнить handling time до/после внедрения"
+      ],
+      "artifacts": [
+        {
+          "label": "Каталог (локально)",
+          "path": "file:///Users/grisaavdeev/study/darkest-afk-item-catalog/docs/index.html"
+        },
+        {
+          "label": "Репозиторий",
+          "path": "https://github.com/gavdeev/darkest-afk-item-catalog"
+        }
+      ],
+      "chips": [
+        "112+ items",
+        "JSON generation",
+        "Bilingual UX"
+      ],
+      "competencies": [
+        "support-automation",
+        "ai-integration"
+      ],
+      "previewImage": "assets/img/project-darkest-afk.svg"
+    },
+    {
+      "id": "project-vacation-cafe",
+      "slug": "vacation-cafe",
+      "title": "Vacation Cafe Simulator Retention Analysis",
+      "tagline": "Аналитика cozy flow и удержания",
+      "context": "Команде нужен был прикладной разбор точек, где cozy-loop превращается во friction.",
+      "problem": "Сигналы из разных каналов были разрознены и плохо переводились в продуктовые действия.",
+      "dataSources": [
+        "Снимки Steam-фидбека",
+        "Discord-репорты и обсуждения",
+        "Жанровые benchmark-наблюдения"
+      ],
+      "method": [
+        "Сгруппированы повторяющиеся friction-паттерны",
+        "Паттерны привязаны к D1/D7/D30 и session/churn-прокси",
+        "Собран набор гипотез для коротких циклов валидации"
+      ],
+      "insights": [
+        "Для части игроков friction растет на интервале 6-8 часов",
+        "Пик механической нагрузки наблюдается на Level 4-5",
+        "Качество сенсорной части и low-friction interaction влияет на retention"
+      ],
+      "decision": "Сформирован практический набор retention-рекомендаций с KPI-привязкой.",
+      "impact": [
+        "Неструктурированное обсуждение превращено в продуктовый артефакт",
+        "Определены гипотезы для QoL, pacing и engagement-петель"
+      ],
+      "nextExperiment": [
+        "Провести один тест по снижению friction",
+        "Отследить D1 и quit<10m",
+        "Проверить динамику session completion"
+      ],
+      "artifacts": [
+        {
+          "label": "Основной insight-файл (локально)",
+          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/vacation%20insight.txt"
+        },
+        {
+          "label": "Case notes",
+          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/GDD/09_VCS_Market_Feedback_Analysis_2026-03-04.md"
+        }
+      ],
+      "chips": [
+        "6-8h friction signal",
+        "D1/D7/D30 mapping",
+        "Actionable hypotheses"
+      ],
+      "competencies": [
+        "product-analytics",
+        "feedback-intelligence"
+      ],
+      "previewImage": "assets/img/project-vacation-cafe.svg"
+    },
+    {
+      "id": "project-dig-dig-die",
+      "slug": "dig-dig-die",
+      "title": "Dig Dig Die Feedback Intelligence Dashboard",
+      "tagline": "Мульти-источниковая аналитика багов и бэклога",
+      "context": "Для Dig Dig Die требовалась единая структурная рамка по багам, UX-рискам и фидбеку игроков.",
+      "problem": "Сырые данные из Steam/Discord/community были шумными и плохо пригодными для приоритизации.",
+      "dataSources": [
+        "Steam feedback",
+        "Discord/community reports",
+        "Структурированные HTML+CSV выгрузки"
+      ],
+      "method": [
+        "Нормализованы сигналы в issue-кластеры",
+        "Добавлены поля priority/effort/risk/horizon/KPI",
+        "Собрана рамка P0/P1/P2 + 30/60/90"
+      ],
+      "insights": [
+        "23 структурированных пункта, включая 6 критических баг/UX тем",
+        "3 ключевых feedback-кластера с бизнес-эффектом",
+        "Зоны риска: coop reliability и onboarding"
+      ],
+      "decision": "Подготовлена backlog-ready приоритизация с измеримыми KPI и окнами внедрения.",
+      "impact": [
+        "Прозрачный переход от raw feedback к приоритетным действиям",
+        "Более быстрый alignment между support/product/dev"
+      ],
+      "nextExperiment": [
+        "Запустить top-2 P0 фикса",
+        "Сравнить Invite Success Rate и D1 за 2 недели",
+        "Отследить тренд response/resolution в support"
+      ],
+      "artifacts": [
+        {
+          "label": "Dashboard HTML (локально)",
+          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_dashboard_ru.html"
+        },
+        {
+          "label": "Structured CSV (локально)",
+          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_reports_ru.csv"
+        }
+      ],
+      "chips": [
+        "23 structured items",
+        "6 critical issues",
+        "30/60/90 roadmap"
+      ],
+      "competencies": [
+        "product-analytics",
+        "feedback-intelligence",
+        "ai-integration"
+      ],
+      "previewImage": "assets/img/project-dig-dig-die.svg"
+    }
+  ],
+  "roadmap": [
+    {
+      "phase": "0-30 дней",
+      "window": "6 мар - 4 апр 2026",
+      "focus": "Упаковка доказательной базы и согласование 20% пилота",
+      "kpi": "Подтвержден scope пилота и baseline-метрики"
+    },
+    {
+      "phase": "31-60 дней",
+      "window": "5 апр - 4 мая 2026",
+      "focus": "Пилот #1 и два аналитических deliverable",
+      "kpi": "Минимум одно решение принято на основе анализа"
+    },
+    {
+      "phase": "61-90 дней",
+      "window": "5 мая - 3 июн 2026",
+      "focus": "Итоговый readout и фиксация трека перехода",
+      "kpi": "Ясный внутренний путь или response rate 10-15% снаружи"
+    }
+  ],
+  "contact": {
+    "items": [
+      {
+        "label": "Email",
+        "value": "grigorii584@gmail.com",
+        "href": "mailto:grigorii584@gmail.com"
+      },
+      {
+        "label": "Телефон",
+        "value": "+7-988-492-9938"
+      },
+      {
+        "label": "Локация",
+        "value": "Volgograd, Russia"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "Добавить URL",
+        "href": "#"
+      }
+    ],
+    "narrative": [
+      "Работаю на стыке support-реальности, сигналов игроков и продуктовой приоритизации.",
+      "Целевая роль: Product Analyst (games), фокус на retention friction, quality signals и AI-enabled workflows.",
+      "Дашборд EN-first для hiring-менеджеров и product leads, с RU toggle для внутренних коммуникаций."
+    ]
+  },
+  "footer": {
+    "version": "Portfolio Dashboard v1.0",
+    "updatedPrefix": "Обновлено"
+  },
+  "modal": {
+    "openLabel": "Открыть детали",
+    "fields": {
+      "context": "Контекст",
+      "problem": "Проблема",
+      "dataSources": "Источники данных",
+      "method": "Метод",
+      "insights": "Инсайты",
+      "decision": "Решение",
+      "impact": "Эффект",
+      "nextExperiment": "Следующий эксперимент"
+    },
+    "artifactTitle": "Артефакты"
+  }
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Product Analyst portfolio dashboard: projects, competencies, roadmap." />
+  <title>Grigorii | Product Analyst Portfolio Dashboard</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23040A12'/%3E%3Ccircle cx='20' cy='20' r='9' fill='%238CCBFF'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar reveal">
+      <div class="identity">
+        <div id="identityName" class="identity-name">Grigorii</div>
+        <div id="identityRole" class="identity-role">Product Analyst Transition Track</div>
+      </div>
+      <nav class="topnav" aria-label="Primary">
+        <a id="navProjects" href="#projects">Projects</a>
+        <a id="navCompetencies" href="#competencies">Competencies</a>
+        <a id="navRoadmap" href="#roadmap">Roadmap</a>
+        <a id="navContact" href="#contact">Contact</a>
+      </nav>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button id="btnLangEn" class="lang-btn" type="button">EN</button>
+        <button id="btnLangRu" class="lang-btn" type="button">RU</button>
+      </div>
+    </header>
+
+    <section class="hero reveal" id="hero">
+      <div id="heroKicker" class="hero-kicker">Portfolio Dashboard</div>
+      <h1 id="heroHeadline">From support signals to product decisions.</h1>
+      <p id="heroSubheadline">EN-first portfolio dashboard with KPI-grounded case studies in game analytics and AI-enabled operations.</p>
+      <div id="ctaRow" class="cta-row"></div>
+    </section>
+
+    <section class="section reveal" id="competencies">
+      <div class="section-header">
+        <h2 id="competenciesTitle">Competencies</h2>
+        <p id="competenciesNote">Core capabilities and measurable proof points.</p>
+      </div>
+      <div id="kpiGrid" class="kpi-grid"></div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-header">
+        <h2 id="projectsTitle">Projects</h2>
+        <p id="projectsNote">Story + KPI hybrid case studies.</p>
+      </div>
+      <div id="filterRow" class="filter-row"></div>
+      <div id="projectsGrid" class="projects-grid"></div>
+    </section>
+
+    <section class="section reveal" id="roadmap">
+      <div class="section-header">
+        <h2 id="roadmapTitle">30/60/90 Roadmap</h2>
+        <p id="roadmapNote">Internal transition + external market execution.</p>
+      </div>
+      <div class="roadmap">
+        <ol id="roadmapList" class="roadmap-list"></ol>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="section-header">
+        <h2 id="contactTitle">Contact</h2>
+        <p id="contactNote">Open to Product Analyst / Game Analyst conversations.</p>
+      </div>
+      <div class="contact-grid">
+        <article class="card contact-card">
+          <ul id="contactList" class="contact-list"></ul>
+        </article>
+        <article class="card contact-card">
+          <div id="contactNarrative"></div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer reveal">
+      <span id="footerVersion">Portfolio v1</span>
+      <span id="footerUpdated">Updated: 2026-03-05</span>
+    </footer>
+  </div>
+
+  <div id="projectModal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-head">
+        <div class="modal-title-wrap">
+          <h3 id="modalTitle">Project title</h3>
+          <div id="modalTagline" class="modal-tagline">Tagline</div>
+        </div>
+        <button id="modalClose" class="modal-close" type="button" aria-label="Close">✕</button>
+      </div>
+
+      <div class="chips" id="modalChips"></div>
+
+      <div class="detail-grid" id="detailGrid"></div>
+
+      <div class="artifact-list" id="artifactList"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
