@@ -19,7 +19,7 @@ Support and customer success operator with 3.5+ years across gamedev, Web3, and 
 
 ## Experience Highlights
 
-### Heapp Games | Customer Success Lead
+### Heapp Games | Customer Success Lead | Current
 - Built support tooling for Darkest AFK, a structured Dig Dig Die feedback workflow, and retention/friction analysis for Vacation Cafe Simulator from live support-facing work.
 - Turned fragmented player feedback into structured priorities for clearer support and product escalation.
 - Built a bilingual Darkest AFK operator tool with 112+ indexed items and standardized package-prep logic.
