@@ -1,113 +1,113 @@
-# Portfolio Projects (Product Analyst Track)
+# Portfolio Projects (Hybrid Support Ops Track)
 
-## 1. Darkest AFK — Support Compensation Catalog
+## Public Framing Rules
+- Public positioning is `Support Ops / Technical Support / Customer Success` first.
+- Product or AI language is allowed only as proof of leverage: better workflows, better escalations, clearer customer insight.
+- Every public case must stay confidentiality-safe: no raw internal metrics beyond safe headline proof, no internal-only URLs, no privileged screenshots, and no unsafe operational detail.
 
-**Context**  
-Live support/admin operations needed faster and more consistent compensation package assembly.
+## 1. Darkest AFK — Support Tooling for Faster Player Recovery
+
+**Public angle**  
+Support automation and operator efficiency inside a live-game support environment.
 
 **Problem**  
-Manual item lookup and JSON assembly created friction, slower handling, and higher chance of formatting mistakes.
+Manual item lookup and compensation package assembly slowed down repetitive recovery work and introduced formatting risk.
 
-**Data Sources**  
-- Internal item metadata (`items.json`)
-- Support workflow requirements from admin/support operations
+**Inputs**  
+- Internal item metadata and support workflow rules
+- Existing compensation package structure
 
 **Method**  
-- Built a static web tool (HTML/CSS/JS) with searchable catalog, category filters, bilingual labels, quantity controls, and JSON output.
-- Added accessibility and keyboard support for high-frequency operator usage.
+- Built a static operator tool with search, filtering, bilingual labels, quantity controls, and standardized output logic.
+- Optimized for frequent internal use rather than presentation-only polish.
 
-**Insights**  
-- Operators need fast lookup + deterministic output format, not only visual browsing.
-- Presets and bulk actions reduce cognitive load in repetitive compensation tasks.
+**Public proof**  
+- **112+ indexed items**
+- Faster package preparation and more consistent output structure
+- Clear example of support tooling built from real operator pain
 
-**Decision**  
-Shipped an interface-first support tool with structured payload generation and reusable presets.
+**What this proves externally**  
+- Support tooling mindset
+- Workflow standardization
+- Operator empathy and process design
 
-**Impact**  
-- Catalog coverage: **112+ items**
-- One-click JSON generation for compensation payloads
-- Standardized output format across support operations
+**Public asset URLs**  
+- `https://codeavd.github.io/Portfolio/cases/darkest-afk.html`
+- `https://github.com/CodeAvd/Portfolio/blob/main/case_01_darkest_afk_one_pager_en.md`
 
-**Next Experiment**  
-Track median time-to-build compensation package and error rate before/after preset adoption.
-
-**Artifacts**  
-- `/Users/grisaavdeev/study/darkest-afk-item-catalog/docs/index.html`
-- `/Users/grisaavdeev/study/darkest-afk-item-catalog/docs/README.md`
+**Confidentiality guardrails**  
+- Do not expose raw payload schemas, internal controls, or admin-only workflow specifics.
 
 ---
 
-## 2. Vacation Cafe Simulator — Retention & Cozy Flow Analysis
+## 2. Dig Dig Die — Multi-Source Feedback Intelligence and Prioritization
 
-**Context**  
-The team needed structured understanding of when a cozy game loop shifts into friction and churn risk.
+**Public angle**  
+Customer insight translation: turning noisy player input into structured priorities for support and product conversations.
 
 **Problem**  
-Player sentiment was spread across many channels and not translated into testable product actions.
+Steam, Discord, and community feedback were fragmented and duplicated, making it hard to escalate the right issues clearly.
 
-**Data Sources**  
-- Steam feedback and reviews
-- Discord reports/discussions
-- Benchmark comparisons (genre peers)
+**Inputs**  
+- Steam feedback snapshots
+- Discord reports and discussion threads
+- Community and creator commentary
 
 **Method**  
-- Synthesized qualitative feedback into repeatable friction patterns.
-- Built action-oriented recommendations mapped to retention and session metrics.
-- Converted observations into prioritization candidates (QoL, loop depth, content cadence).
+- Grouped raw signals into issue clusters and feedback themes.
+- Added priority, risk, effort, and action framing.
+- Converted scattered complaints into a decision-ready view that support and product stakeholders could discuss from the same page.
 
-**Insights**  
-- Repetition/friction spike often appears around **6–8 hours**.
-- Mechanical load increases around **Level 4–5** and can break cozy flow.
-- Audio/visual “cozy triggers” and fail-forward design patterns can support D1/D7.
+**Public proof**  
+- **23 structured priority items**
+- **6 critical bug/UX issues**
+- **3 repeat feedback themes**
 
-**Decision**  
-Created a practical recommendation set with KPI mapping for retention, session quality, and friction reduction.
+**What this proves externally**  
+- Feedback intelligence
+- Cross-functional escalation quality
+- Prioritization under noisy conditions
 
-**Impact**  
-- Produced a long-form actionable analysis used as product discussion input.
-- Defined concrete hypotheses for QoL, content progression, and creator-facing virality hooks.
+**Public asset URLs**  
+- `https://codeavd.github.io/Portfolio/cases/dig-dig-die.html`
+- `https://github.com/CodeAvd/Portfolio/blob/main/case_03_dig_dig_die_one_pager_en.md`
 
-**Next Experiment**  
-Run A/B on one friction-reduction hypothesis (for example, prep interaction simplification) and measure D1 + quit<10m.
-
-**Artifacts**  
-- `/Users/grisaavdeev/Desktop/vcs-dashboard-clean/vacation insight.txt`
-- `/Users/grisaavdeev/Desktop/vcs-dashboard-clean/GDD/09_VCS_Market_Feedback_Analysis_2026-03-04.md`
+**Confidentiality guardrails**  
+- Do not publish raw source links, internal discussion context, or full operational datasets.
 
 ---
 
-## 3. Dig Dig Die — Multi-Source Bug & Feedback Intelligence Dashboard
+## 3. Vacation Cafe Simulator — Retention / Friction Analysis
 
-**Context**  
-Dig Dig Die needed an actionable view of critical gameplay issues and player feedback priorities.
+**Public angle**  
+Retention and friction analysis used as a support-adjacent differentiator, not a full product pivot.
 
 **Problem**  
-Raw feedback was fragmented and noisy, making it hard to align dev/support priorities.
+Community and market feedback described “cozy flow” breakdowns, but the signals were not organized into clear, testable actions.
 
-**Data Sources**  
-- Steam player feedback
-- Discord/community reports
-- Additional creator/player commentary
+**Inputs**  
+- Steam review and feedback snapshots
+- Discord discussion samples
+- Genre and benchmark observations
 
 **Method**  
-- Built structured dashboard + CSV model.
-- Grouped signals into critical bugs, feedback themes, backlog candidates, and import opportunities.
-- Added explicit priority, effort, risk, horizon, and KPI for each item.
+- Clustered qualitative feedback into repeat friction patterns.
+- Mapped those patterns to simple retention and session-quality questions.
+- Proposed short-loop hypotheses that a team could validate without large research overhead.
 
-**Insights**  
-- Identified **23 structured priority items**, including **6 critical bug/UX issues** and **3 key feedback themes**.
-- Critical blockers concentrated around coop flow, onboarding discoverability, and continuity/reliability.
+**Public proof**  
+- Repeat friction signal around **6-8 hours**
+- Complexity spike around **Level 4-5**
+- Clear QoL and progression hypotheses
 
-**Decision**  
-Proposed a 30/60/90 roadmap with P0/P1/P2 sequencing and measurable KPI targets.
+**What this proves externally**  
+- Customer insight translation
+- Friction analysis
+- Support-to-product escalation maturity
 
-**Impact**  
-- Created a traceable decision layer from raw feedback to implementation-ready backlog.
-- Reduced ambiguity in cross-functional prioritization discussions.
+**Public asset URLs**  
+- `https://codeavd.github.io/Portfolio/cases/vacation-cafe.html`
+- `https://github.com/CodeAvd/Portfolio/blob/main/case_02_vacation_cafe_one_pager_en.md`
 
-**Next Experiment**  
-Pilot top-2 P0 fixes and compare Invite Success Rate, D1, and support response metrics over 2-week windows.
-
-**Artifacts**  
-- `/Users/grisaavdeev/Desktop/dig_dig_die_bug_dashboard_ru.html`
-- `/Users/grisaavdeev/Desktop/dig_dig_die_bug_reports_ru.csv`
+**Confidentiality guardrails**  
+- Do not expose raw internal notes, full review corpora, or private design recommendations beyond the public summary.

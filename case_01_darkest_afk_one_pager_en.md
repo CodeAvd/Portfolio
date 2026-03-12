@@ -1,38 +1,35 @@
-# Case 01: Darkest AFK Support Catalog
+# Darkest AFK — Support Tooling for Faster Player Recovery
+
+## Public Angle
+Support automation and operator efficiency in a live-game support environment.
 
 ## Context
-Darkest AFK support/admin workflows required frequent in-game compensations and item lookups.
+Player recovery flows required frequent compensation package assembly. Manual item lookup and repetitive formatting slowed operators down and made consistency harder to maintain.
 
-## Problem
-Manual item search and payload preparation increased handling friction and formatting inconsistency.
+## What I Built
+- A static operator tool for browsing and searching the available item set.
+- Bilingual labels to support daily operational use.
+- Standardized package assembly logic so support/admin work could stay consistent.
 
-## Data Sources
-- Item metadata (`items.json`)
-- Support workflow requirements from admin/support operations
-- Existing compensation payload format (`init_info` JSON)
+## Public Proof
+- **112+ indexed items**
+- Search and filter flow designed for repetitive support usage
+- Clear example of process simplification built from real operator pain
 
-## Method
-- Built an internal web interface using HTML/CSS/JS.
-- Implemented search, category filters, bilingual labels, multi-select, quantity controls, and one-click JSON output.
-- Added keyboard shortcuts and accessibility improvements for high-frequency use.
+## Why It Matters for Support Ops
+- Speeds up repetitive internal work without adding complexity
+- Reduces avoidable formatting mistakes in recovery workflows
+- Shows an operator mindset: the tool is useful because it removes friction where teams feel it every day
 
-## Insights
-- Operator speed depends more on deterministic output format than visual polish.
-- Repetitive operations benefit from bulk actions and presets to reduce cognitive load.
+## Transferable Value
+- Support tooling
+- Workflow standardization
+- Internal operator UX
+- Cross-functional coordination between support and admin workflows
 
-## Decision
-Ship a tool-first support workflow with standardized payload generation and reusable package patterns.
+## Public Assets
+- `https://codeavd.github.io/Portfolio/cases/darkest-afk.html`
+- `https://codeavd.github.io/Portfolio/#project=darkest-afk`
 
-## Impact
-- **112+ items** in the searchable catalog.
-- Unified compensation payload format for team usage.
-- Reduced manual copy/paste friction in repetitive support operations.
-
-## Next Experiment
-Track before/after on:
-- Median package assembly time.
-- Formatting/copy errors in compensation payloads.
-- Ticket handling time for compensation-related cases.
-
-## Artifact
-- `/Users/grisaavdeev/study/darkest-afk-item-catalog/docs/index.html`
+## Confidentiality Note
+The public version keeps the workflow story and safe outcome signals, but removes raw payload structures, internal-only controls, and private operational details.

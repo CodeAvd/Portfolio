@@ -1,42 +1,35 @@
-# Case 03: Dig Dig Die Feedback Intelligence Dashboard
+# Dig Dig Die — Multi-Source Feedback Intelligence and Prioritization
+
+## Public Angle
+Customer insight translation and cross-functional escalation quality.
 
 ## Context
-Dig Dig Die required a clear prioritization layer for bugs, UX issues, and player feedback.
+Steam, Discord, and community feedback contained repeated bug reports, UX complaints, and improvement requests, but the signals were fragmented and hard to operationalize.
 
-## Problem
-Signals from Steam, Discord, and community channels were fragmented, duplicated, and difficult to operationalize.
+## What I Did
+- Grouped raw player feedback into issue clusters and repeat themes.
+- Added basic priority framing so the conversation could move from “noise” to “next actions.”
+- Packaged the result into a decision-ready view that support and product stakeholders could use together.
 
-## Data Sources
-- Steam feedback
-- Discord reports
-- Community/creator signal samples
-- Structured outputs: dashboard HTML + CSV
+## Public Proof
+- **23 structured priority items**
+- **6 critical bug/UX issues**
+- **3 repeat feedback themes**
 
-## Method
-- Built a structured analysis model with item-level fields: priority, effort, risk, horizon, KPI, source links.
-- Grouped signals into bug clusters, feedback themes, backlog candidates, and strategic imports.
-- Added rollout logic with P0/P1/P2 and a 30/60/90 implementation frame.
+## Why It Matters for Support Ops
+- Makes escalations clearer and faster
+- Reduces duplication between support, product, and dev conversations
+- Shows the ability to convert public user signals into a backlog-ready view without exposing private internals
 
-## Insights
-- Consolidated into **23 structured items**, including:
-  - **6 critical bug/UX issues**
-  - **3 key feedback themes**
-  - **5 high-potential imported feature concepts**
-- Core risk zones: coop reliability, onboarding discoverability, and continuity/recovery loops.
+## Transferable Value
+- Feedback intelligence
+- Prioritization under noisy conditions
+- Cross-functional escalation
+- Structured communication for support and product teams
 
-## Decision
-Delivered an implementation-ready priority model with KPI references for retention and support outcomes.
+## Public Assets
+- `https://codeavd.github.io/Portfolio/cases/dig-dig-die.html`
+- `https://codeavd.github.io/Portfolio/#project=dig-dig-die`
 
-## Impact
-- Converted noise into a traceable decision artifact.
-- Improved cross-functional alignment potential for product/support prioritization.
-
-## Next Experiment
-Ship top-2 P0 fixes and compare two-week deltas for:
-- Invite Success Rate.
-- D1 retention.
-- Time-to-First-Response for support-critical issues.
-
-## Artifacts
-- `/Users/grisaavdeev/Desktop/dig_dig_die_bug_dashboard_ru.html`
-- `/Users/grisaavdeev/Desktop/dig_dig_die_bug_reports_ru.csv`
+## Confidentiality Note
+The public version keeps the structure, proof counts, and prioritization logic, but removes raw source links, internal discussion context, and full operational datasets.

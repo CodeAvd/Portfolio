@@ -3,7 +3,7 @@
 Static EN-first portfolio dashboard with RU toggle.
 
 ## Location
-`/Users/grisaavdeev/study/переменные/career/heapp_transition_2026/dashboard`
+`heapp_transition_2026/dashboard`
 
 ## Stack
 - HTML
@@ -32,7 +32,7 @@ Static EN-first portfolio dashboard with RU toggle.
 Because `fetch()` is used for JSON loading, run via local static server.
 
 ```bash
-cd "/Users/grisaavdeev/study/переменные/career/heapp_transition_2026/dashboard"
+cd heapp_transition_2026/dashboard
 python3 -m http.server 8877
 ```
 
@@ -41,14 +41,13 @@ Open:
 - `http://localhost:8877/?lang=ru`
 - `http://localhost:8877/?lang=en#project=dig-dig-die`
 
-## GitHub Pages Publish (pages-ready)
-1. Create repo `gavdeev/grigorii-portfolio-dashboard`.
-2. Copy all files from this `dashboard/` folder into repo root.
-3. Push to `main`.
-4. In repo settings: Pages -> Deploy from branch -> `main` + `/ (root)`.
-5. Verify live URL and then update links in:
-   - `/Users/grisaavdeev/study/переменные/career/draft_resume.md`
-   - `/Users/grisaavdeev/study/переменные/career/heapp_transition_2026/linkedin_profile_pack_en.md`
+## GitHub Pages Publish
+1. Sync this `dashboard/` folder into the public repo `CodeAvd/Portfolio`.
+2. Deploy the `dashboard/` directory as the GitHub Pages artifact.
+3. Verify the live URL:
+   - `https://codeavd.github.io/Portfolio/`
+4. Keep public references aligned with that live URL in the resume/profile packs.
 
 ## Notes
-- Public deployment should replace local `file:///` artifact links with public URLs/screenshots where available.
+- Public deployment should use live URLs for the hub and case pages.
+- Resume and profile packs should point to the live site, not local relative paths.

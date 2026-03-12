@@ -1,43 +1,43 @@
 {
   "meta": {
     "name": "Григорий",
-    "title": "Product Analyst (Game Analytics & AI Integration)",
-    "updatedAt": "2026-03-05"
+    "title": "Support Ops / Technical Support",
+    "updatedAt": "2026-03-12"
   },
   "nav": {
-    "projects": "Проекты",
-    "competencies": "Компетенции",
-    "roadmap": "Роадмап",
+    "projects": "Кейсы",
+    "competencies": "Темы доказательств",
+    "roadmap": "Role Fit",
     "contact": "Контакты"
   },
   "sections": {
-    "competenciesTitle": "Дашборд компетенций",
-    "competenciesNote": "Ключевые навыки, подтвержденные реальными артефактами.",
-    "projectsTitle": "Мозаика проектов",
-    "projectsNote": "Гибридный формат: история решения + KPI-эффект.",
-    "roadmapTitle": "План перехода 30/60/90",
-    "roadmapNote": "Внутренний рост в Heapp + параллельный внешний трек.",
+    "competenciesTitle": "Темы доказательств",
+    "competenciesNote": "Три публичные темы, которые делают целевую роль очевидной за 6 секунд.",
+    "projectsTitle": "Кейсы",
+    "projectsNote": "Автоматизация саппорта, feedback intelligence и retention-friction analysis из текущей работы.",
+    "roadmapTitle": "Role Fit",
+    "roadmapNote": "Внешние роли, под которые собран этот публичный пакет.",
     "contactTitle": "Контакты и позиционирование",
-    "contactNote": "Открыт к ролям Product Analyst / Game Analyst / AI Ops."
+    "contactNote": "Remote-first пакет под Support Ops, Technical Support, Customer Success и integration-heavy support роли."
   },
   "hero": {
-    "kicker": "Воздушное холодное портфолио",
-    "headline": "От сигналов саппорта к продуктовым решениям.",
-    "subheadline": "Собираю аналитические выводы из фидбека игроков и операционных данных, затем превращаю их в приоритизированные продуктовые действия.",
+    "kicker": "Hybrid Career Pack",
+    "headline": "Саппорт с доказательствами в автоматизации, feedback intelligence и friction analysis.",
+    "subheadline": "Публичный внешний пакет для Support Ops и Technical Support ролей. Кейсы Heapp Games используются как доказательство рычага, а не как публичный product-пивот.",
     "ctas": [
       {
-        "label": "Открыть CV",
-        "href": "../draft_resume.md",
+        "label": "Открыть Resume",
+        "href": "resume.html",
         "kind": "primary"
       },
       {
-        "label": "Открыть пакет кейсов",
-        "href": "../README.md",
+        "label": "Открыть GitHub Repo",
+        "href": "https://github.com/CodeAvd/Portfolio",
         "kind": "secondary"
       },
       {
-        "label": "Связаться",
-        "href": "#contact",
+        "label": "Смотреть кейсы",
+        "href": "#projects",
         "kind": "secondary"
       }
     ]
@@ -48,228 +48,230 @@
       "label": "Все"
     },
     {
-      "id": "product-analytics",
-      "label": "Product Analytics"
+      "id": "support-automation",
+      "label": "Support Automation"
     },
     {
       "id": "feedback-intelligence",
       "label": "Feedback Intelligence"
     },
     {
-      "id": "support-automation",
-      "label": "Support Automation"
+      "id": "retention-friction",
+      "label": "Retention / Friction"
     },
     {
-      "id": "ai-integration",
-      "label": "AI Integration"
+      "id": "cross-functional-escalation",
+      "label": "Cross-Functional Escalation"
     }
   ],
   "kpis": [
     {
       "id": "kpi-1",
-      "label": "Структурированные пункты",
-      "value": "23",
-      "note": "Консолидация приоритетов Dig Dig Die"
+      "label": "Support Automation",
+      "value": "112+ indexed items",
+      "note": "Darkest AFK operator tooling для повторяющихся recovery flow"
     },
     {
       "id": "kpi-2",
-      "label": "Критические баг/UX темы",
-      "value": "6",
-      "note": "Сопоставлены с P0/P1/P2 и KPI"
+      "label": "Feedback Intelligence",
+      "value": "23 structured priorities",
+      "note": "Dig Dig Die: сигналы собраны в один приоритизированный view"
     },
     {
       "id": "kpi-3",
-      "label": "Покрытие каталога",
-      "value": "112+",
-      "note": "Предметы Darkest AFK для саппорта"
+      "label": "Retention / Friction",
+      "value": "6-8h friction signal",
+      "note": "Vacation Cafe: паттерн боли превращен в набор гипотез"
     },
     {
       "id": "kpi-4",
-      "label": "Опыт в домене",
-      "value": "3.5+ года",
-      "note": "Support + продуктово-операционный трек"
+      "label": "Support Credibility",
+      "value": "3.5+ years",
+      "note": "Gamedev, Web3 и FinTech support environments"
     }
   ],
   "projects": [
     {
       "id": "project-darkest-afk",
       "slug": "darkest-afk",
-      "title": "Darkest AFK Support Compensation Catalog",
-      "tagline": "Автоматизация support workflow",
-      "context": "В операциях Darkest AFK нужна была быстрая и единообразная сборка компенсационных пакетов.",
-      "problem": "Ручной поиск предметов и сборка JSON-пакетов создавали рутину и риск форматных ошибок.",
+      "title": "Darkest AFK - Support Tooling for Faster Player Recovery",
+      "tagline": "Автоматизация саппорта и operator efficiency",
+      "context": "Support и admin workflow требовали более быстрого и безопасного способа собирать compensation package без повторяющегося ручного поиска и форматирования.",
+      "problem": "Ручной поиск предметов и подготовка пакетов создавали рутину и мешали консистентности.",
       "dataSources": [
-        "Метаданные items.json",
-        "Требования support/admin workflow",
-        "Формат init_info payload"
+        "Support workflow pain points",
+        "Item metadata",
+        "Внутренние требования к сборке пакета"
       ],
       "method": [
-        "Собран статический инструмент на HTML/CSS/JS",
-        "Добавлены поиск, фильтры, билингвальные метки, multiselect и количества",
-        "Реализована генерация JSON в один клик и accessibility-shortcuts"
+        "Собран статический операторский инструмент с поиском, фильтрами, билингвальными метками и стандартизированной логикой подготовки пакета",
+        "Флоу оптимизирован под повторяющуюся внутреннюю работу, а не под демонстрационный UI",
+        "Построен более чистый путь от lookup к repeatable output"
       ],
       "insights": [
-        "Для операторов важнее предсказуемый output, чем визуальная сложность",
-        "Пресеты и bulk-действия снижают когнитивную нагрузку"
+        "Operator tooling важно там, где один и тот же recovery flow повторяется постоянно",
+        "Для компенсаций консистентность не менее важна, чем скорость",
+        "Дизайн workflow может убрать support friction без оргизменений"
       ],
-      "decision": "Отгружен интерфейсный workflow со стандартизированной генерацией payload.",
+      "decision": "Публично пакетируется как support automation, а не как product-build история.",
       "impact": [
-        "112+ предметов в едином каталоге",
-        "Унифицированный формат компенсационных пакетов",
-        "Снижение ручного copy/paste трения"
+        "112+ indexed items в одном операторском инструменте",
+        "Более понятная и повторяемая подготовка пакетов",
+        "Сильное публичное доказательство support tooling мышления"
       ],
       "nextExperiment": [
-        "Измерить median time сборки пакета",
-        "Отследить частоту форматных ошибок",
-        "Сравнить handling time до/после внедрения"
+        "Измерить время подготовки пакета до и после инструмента",
+        "Отследить форматные ошибки и повторные исправления",
+        "Найти следующий повторяющийся support workflow для стандартизации"
       ],
       "artifacts": [
         {
-          "label": "Каталог (локально)",
-          "path": "file:///Users/grisaavdeev/study/darkest-afk-item-catalog/docs/index.html"
+          "label": "Открыть страницу кейса",
+          "path": "cases/darkest-afk.html"
         },
         {
-          "label": "Репозиторий",
-          "path": "https://github.com/gavdeev/darkest-afk-item-catalog"
+          "label": "Открыть GitHub one-pager",
+          "path": "https://github.com/CodeAvd/Portfolio/blob/main/case_01_darkest_afk_one_pager_en.md"
         }
       ],
       "chips": [
-        "112+ items",
-        "JSON generation",
-        "Bilingual UX"
+        "112+ indexed items",
+        "Bilingual operator UX",
+        "Standardized package prep"
       ],
       "competencies": [
         "support-automation",
-        "ai-integration"
+        "cross-functional-escalation"
       ],
       "previewImage": "assets/img/project-darkest-afk.svg"
     },
     {
-      "id": "project-vacation-cafe",
-      "slug": "vacation-cafe",
-      "title": "Vacation Cafe Simulator Retention Analysis",
-      "tagline": "Аналитика cozy flow и удержания",
-      "context": "Команде нужен был прикладной разбор точек, где cozy-loop превращается во friction.",
-      "problem": "Сигналы из разных каналов были разрознены и плохо переводились в продуктовые действия.",
-      "dataSources": [
-        "Снимки Steam-фидбека",
-        "Discord-репорты и обсуждения",
-        "Жанровые benchmark-наблюдения"
-      ],
-      "method": [
-        "Сгруппированы повторяющиеся friction-паттерны",
-        "Паттерны привязаны к D1/D7/D30 и session/churn-прокси",
-        "Собран набор гипотез для коротких циклов валидации"
-      ],
-      "insights": [
-        "Для части игроков friction растет на интервале 6-8 часов",
-        "Пик механической нагрузки наблюдается на Level 4-5",
-        "Качество сенсорной части и low-friction interaction влияет на retention"
-      ],
-      "decision": "Сформирован практический набор retention-рекомендаций с KPI-привязкой.",
-      "impact": [
-        "Неструктурированное обсуждение превращено в продуктовый артефакт",
-        "Определены гипотезы для QoL, pacing и engagement-петель"
-      ],
-      "nextExperiment": [
-        "Провести один тест по снижению friction",
-        "Отследить D1 и quit<10m",
-        "Проверить динамику session completion"
-      ],
-      "artifacts": [
-        {
-          "label": "Основной insight-файл (локально)",
-          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/vacation%20insight.txt"
-        },
-        {
-          "label": "Case notes",
-          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/GDD/09_VCS_Market_Feedback_Analysis_2026-03-04.md"
-        }
-      ],
-      "chips": [
-        "6-8h friction signal",
-        "D1/D7/D30 mapping",
-        "Actionable hypotheses"
-      ],
-      "competencies": [
-        "product-analytics",
-        "feedback-intelligence"
-      ],
-      "previewImage": "assets/img/project-vacation-cafe.svg"
-    },
-    {
       "id": "project-dig-dig-die",
       "slug": "dig-dig-die",
-      "title": "Dig Dig Die Feedback Intelligence Dashboard",
-      "tagline": "Мульти-источниковая аналитика багов и бэклога",
-      "context": "Для Dig Dig Die требовалась единая структурная рамка по багам, UX-рискам и фидбеку игроков.",
-      "problem": "Сырые данные из Steam/Discord/community были шумными и плохо пригодными для приоритизации.",
+      "title": "Dig Dig Die - Multi-Source Feedback Intelligence and Prioritization",
+      "tagline": "Feedback intelligence и более четкие эскалации",
+      "context": "Steam, Discord и community reports содержали повторяющиеся bug и UX сигналы, но фидбек был фрагментирован и дублировался между каналами.",
+      "problem": "Support и product разговоры замедлялись, потому что одна и та же проблема появлялась в разных форматах без общей структуры.",
       "dataSources": [
-        "Steam feedback",
-        "Discord/community reports",
-        "Структурированные HTML+CSV выгрузки"
+        "Steam feedback snapshots",
+        "Discord и community reports",
+        "Creator и player commentary"
       ],
       "method": [
-        "Нормализованы сигналы в issue-кластеры",
-        "Добавлены поля priority/effort/risk/horizon/KPI",
-        "Собрана рамка P0/P1/P2 + 30/60/90"
+        "Сырые сигналы сгруппированы в issue groups и feedback themes",
+        "Добавлена простая priority рамка, чтобы перейти от шума к next actions",
+        "Результат упакован в support-to-product escalation view"
       ],
       "insights": [
-        "23 структурированных пункта, включая 6 критических баг/UX тем",
-        "3 ключевых feedback-кластера с бизнес-эффектом",
-        "Зоны риска: coop reliability и onboarding"
+        "23 structured items сделали объем боли игроков читаемым",
+        "6 critical bug/UX issues выделились как near-term риск",
+        "3 repeat feedback themes показали, где концентрируется раздражение"
       ],
-      "decision": "Подготовлена backlog-ready приоритизация с измеримыми KPI и окнами внедрения.",
+      "decision": "Работа публикуется как customer insight translation и приоритизация, а не как raw data artifact.",
       "impact": [
-        "Прозрачный переход от raw feedback к приоритетным действиям",
-        "Более быстрый alignment между support/product/dev"
+        "Более быстрый путь от публичных жалоб к структурированной эскалации",
+        "Меньше дублирования между support, product и dev",
+        "Понятное доказательство feedback intelligence внутри support narrative"
       ],
       "nextExperiment": [
-        "Запустить top-2 P0 фикса",
-        "Сравнить Invite Success Rate и D1 за 2 недели",
-        "Отследить тренд response/resolution в support"
+        "Проверить, сокращают ли структурированные эскалации время на приоритизацию",
+        "Измерить, как часто дублирующиеся жалобы схлопываются в один issue view",
+        "Повторить тот же workflow для другого noisy signal set"
       ],
       "artifacts": [
         {
-          "label": "Dashboard HTML (локально)",
-          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_dashboard_ru.html"
+          "label": "Открыть страницу кейса",
+          "path": "cases/dig-dig-die.html"
         },
         {
-          "label": "Structured CSV (локально)",
-          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_reports_ru.csv"
+          "label": "Открыть GitHub one-pager",
+          "path": "https://github.com/CodeAvd/Portfolio/blob/main/case_03_dig_dig_die_one_pager_en.md"
         }
       ],
       "chips": [
         "23 structured items",
         "6 critical issues",
-        "30/60/90 roadmap"
+        "3 repeat themes"
       ],
       "competencies": [
-        "product-analytics",
         "feedback-intelligence",
-        "ai-integration"
+        "cross-functional-escalation"
       ],
       "previewImage": "assets/img/project-dig-dig-die.svg"
+    },
+    {
+      "id": "project-vacation-cafe",
+      "slug": "vacation-cafe",
+      "title": "Vacation Cafe Simulator - Retention and Friction Analysis",
+      "tagline": "Retention-friction analysis как support-adjacent leverage",
+      "context": "Community и market feedback описывали точки, где cozy loop начинает казаться повторяющимся или слишком тяжелым, но сигналы не были превращены в действия.",
+      "problem": "Боль игроков была реальной, но оставалась разбросанной по каналам и не переводилась в testable next steps.",
+      "dataSources": [
+        "Steam review и feedback snapshots",
+        "Discord discussion samples",
+        "Genre и benchmark observations"
+      ],
+      "method": [
+        "Повторяющиеся complaints сгруппированы в friction patterns вместо отдельных anecdote",
+        "Паттерны привязаны к простым вопросам про retention и session quality",
+        "Предложены короткие гипотезы, которые команда может быстро рассмотреть"
+      ],
+      "insights": [
+        "Повторяющийся friction signal появился около 6-8 часов для части игроков",
+        "Complexity выросла около Level 4-5 и изменила ощущение от loop",
+        "Эта работа лучше всего работает как decision support, а не как product-title pivot"
+      ],
+      "decision": "Работа остается в пакете как доказательство аналитического leverage внутри support-ops identity.",
+      "impact": [
+        "Понятный публичный пример friction analysis и hypothesis framing",
+        "Лучший язык для перевода user pain в support-to-product escalation",
+        "Полезный differentiator без размывания support narrative"
+      ],
+      "nextExperiment": [
+        "Проверить, помогает ли такой фреймворк и для SaaS onboarding или help-center контекста",
+        "Сжать анализ в one-page operating memo",
+        "Отследить, действуют ли команды быстрее, когда friction patterns названы явно"
+      ],
+      "artifacts": [
+        {
+          "label": "Открыть страницу кейса",
+          "path": "cases/vacation-cafe.html"
+        },
+        {
+          "label": "Открыть GitHub one-pager",
+          "path": "https://github.com/CodeAvd/Portfolio/blob/main/case_02_vacation_cafe_one_pager_en.md"
+        }
+      ],
+      "chips": [
+        "6-8h friction signal",
+        "Level 4-5 complexity spike",
+        "Short-loop hypotheses"
+      ],
+      "competencies": [
+        "feedback-intelligence",
+        "retention-friction"
+      ],
+      "previewImage": "assets/img/project-vacation-cafe.svg"
     }
   ],
   "roadmap": [
     {
-      "phase": "0-30 дней",
-      "window": "6 мар - 4 апр 2026",
-      "focus": "Упаковка доказательной базы и согласование 20% пилота",
-      "kpi": "Подтвержден scope пилота и baseline-метрики"
+      "phase": "Support Ops Specialist",
+      "window": "Workflow automation | operator tooling",
+      "focus": "Лучший fit для команд, которым нужно меньше повторяющихся шагов, более чистые процессы и более сильное daily support execution.",
+      "kpi": "Proof: Darkest AFK tooling, Mover automation и knowledge operations"
     },
     {
-      "phase": "31-60 дней",
-      "window": "5 апр - 4 мая 2026",
-      "focus": "Пилот #1 и два аналитических deliverable",
-      "kpi": "Минимум одно решение принято на основе анализа"
+      "phase": "Technical Support / Integration Support",
+      "window": "Escalation quality | issue reproduction",
+      "focus": "Лучший fit для продуктов со сложными user journey, debugging-heavy support и реальной потребностью в структурированном переводе issues.",
+      "kpi": "Proof: bridge incident handling, QA-style escalation и Dig Dig Die signal clustering"
     },
     {
-      "phase": "61-90 дней",
-      "window": "5 мая - 3 июн 2026",
-      "focus": "Итоговый readout и фиксация трека перехода",
-      "kpi": "Ясный внутренний путь или response rate 10-15% снаружи"
+      "phase": "Customer Success",
+      "window": "Trust-heavy products | cross-functional communication",
+      "focus": "Лучший fit для ролей, где саппорт должен сохранять доверие, ясно вести пользователя и превращать повторяющиеся проблемы в более качественные решения.",
+      "kpi": "Proof: onboarding guidance, incident communication и retention-friction insight work"
     }
   ],
   "contact": {
@@ -280,41 +282,46 @@
         "href": "mailto:grigorii584@gmail.com"
       },
       {
-        "label": "Телефон",
-        "value": "+7-988-492-9938"
+        "label": "Location",
+        "value": "Russia | Remote"
       },
       {
-        "label": "Локация",
-        "value": "Volgograd, Russia"
+        "label": "Languages",
+        "value": "Russian (native), English (B2)"
       },
       {
-        "label": "LinkedIn",
-        "value": "Добавить URL",
-        "href": "#"
+        "label": "Portfolio",
+        "value": "codeavd.github.io/Portfolio",
+        "href": "https://codeavd.github.io/Portfolio/"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/CodeAvd/Portfolio",
+        "href": "https://github.com/CodeAvd/Portfolio"
       }
     ],
     "narrative": [
-      "Работаю на стыке support-реальности, сигналов игроков и продуктовой приоритизации.",
-      "Целевая роль: Product Analyst (games), фокус на retention friction, quality signals и AI-enabled workflows.",
-      "Дашборд EN-first для hiring-менеджеров и product leads, с RU toggle для внутренних коммуникаций."
+      "Этот пакет собран прежде всего под внешние интервью. Headline, summary logic и project framing синхронизированы между resume, LinkedIn, Hirify и portfolio.",
+      "Примеры Heapp Games показывают operator thinking, customer insight translation и analytical leverage без раскрытия приватных workflow и внутренних данных.",
+      "Открыт к remote-first ролям в Support Ops, Technical Support, Customer Success и support-heavy позициям в Web3, FinTech, SaaS и gamedev."
     ]
   },
   "footer": {
-    "version": "Portfolio Dashboard v1.0",
-    "updatedPrefix": "Обновлено"
+    "version": "Hybrid Pack v2",
+    "updatedPrefix": "Updated"
   },
   "modal": {
-    "openLabel": "Открыть детали",
+    "openLabel": "Открыть кейс",
+    "artifactTitle": "Публичные материалы",
     "fields": {
       "context": "Контекст",
       "problem": "Проблема",
-      "dataSources": "Источники данных",
+      "dataSources": "Входы",
       "method": "Метод",
       "insights": "Инсайты",
-      "decision": "Решение",
+      "decision": "Как это упаковано",
       "impact": "Эффект",
       "nextExperiment": "Следующий эксперимент"
-    },
-    "artifactTitle": "Артефакты"
+    }
   }
 }

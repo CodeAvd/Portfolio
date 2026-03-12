@@ -1,55 +1,70 @@
 # Grigorii
 
-**Target Role:** Product Analyst (Game Analytics & AI Integration)  
-**Current Role:** Customer Success Lead (Heapp Games)  
-**Email:** grigorii584@gmail.com | **Phone:** +7-988-492-9938 | **Location:** Volgograd, Russia  
+**External Headline:** Support Ops / Technical Support Specialist | Customer Success | Workflow Automation | Web3, FinTech & Gamedev  
+**Email:** grigorii584@gmail.com | **Phone:** +7-988-492-9938 | **Location:** Russia | Remote  
 **English:** B2 (Upper-Intermediate)  
-**LinkedIn:** [Add LinkedIn URL]  
-**Portfolio Hub:** [Portfolio Dashboard (local)](/Users/grisaavdeev/study/переменные/career/heapp_transition_2026/dashboard/index.html) | GitHub Pages URL: [pending publish]
+**Portfolio Hub:** `https://codeavd.github.io/Portfolio/`
 
-## Professional Summary
-Product-minded Customer Success Lead with 3.5+ years in game/community operations, support systems, and player-facing analytics. Built analyst-grade internal artifacts from unstructured player feedback (Steam, Discord, YouTube), converted signals into prioritized backlogs, and shipped support automation tools that reduce operational friction. Strong in KPI-driven thinking (D1/D7/D30, churn, session quality, support SLA), cross-functional communication, and AI-assisted workflow design. Looking to transition into a Product Analyst role while preserving strong execution in live support operations.
+## Master Summary
+Support and customer success operator with 3.5+ years across gamedev, Web3, and FinTech support environments. Strong in workflow automation, cross-functional escalation, incident communication, knowledge operations, and translating player or customer feedback into actionable priorities. Recent work includes operator tooling for Darkest AFK, multi-source feedback prioritization for Dig Dig Die, and friction analysis for Vacation Cafe Simulator. External positioning stays anchored in Support Ops / Technical Support, with analytics and AI-assisted automation presented as leverage rather than a separate identity.
 
-## Core Skills
-- **Product Analytics:** KPI tree design, retention-friction analysis, backlog prioritization (impact/effort/risk), 30/60/90 planning.
-- **Game Feedback Intelligence:** Steam review analysis, Discord signal clustering, creator/community signal extraction.
-- **AI & Automation:** LLM-assisted synthesis, workflow structuring, support process automation concepts.
-- **Technical Toolkit:** HTML, CSS, JavaScript, CSV analysis, dashboard structuring, SQL basics, Python/Pandas basics.
-- **Operations:** Support SLA ownership, incident communication, triage, escalation management.
+## Target Role Families
+- Support Ops Specialist
+- Technical Support Specialist / Technical Support Engineer
+- Customer Success / Customer Support
+- Integration Support
+- FinTech / Web3 support
+
+## Proof Themes
+- **Support automation:** operator tooling, workflow simplification, repeatable outputs, lower manual friction.
+- **Feedback intelligence:** multi-source signal gathering, clustering, prioritization, escalation-ready summaries.
+- **Retention / friction analysis:** identifying where users or players struggle, translating that into testable hypotheses.
 
 ## Experience
 
-### Customer Success Lead (Transition Track: Product Analytics)
+### Customer Success Lead
 **Heapp Games** | *Current*
-- Built a structured feedback intelligence dashboard for **Dig Dig Die** using multi-source player input (Steam + Discord + community content), consolidating findings into **23 prioritized items** (including **6 critical bugs** and **3 key feedback themes**) with clear MVP actions and KPI mapping.
-- Produced a product-ready recommendation system with priority horizons (**P0/P1/P2**) and a **30/60/90 execution model** tied to D1, D7, D30, and support-response metrics.
-- Built an internal item compensation tool for **Darkest AFK**: interactive bilingual catalog with **112+ items**, search/filtering, preset logic, and one-click JSON package generation for support/admin workflows.
-- Delivered a deep retention and game-loop analysis for **Vacation Cafe Simulator**, identifying friction thresholds (for example, the **6–8 hour repetition point** and **Level 4–5 complexity spike**) and translating them into actionable design and QoL hypotheses.
-- Maintained support ownership while developing product/analytics deliverables, proving ability to run dual-track execution (operations + analysis).
+- Built support tooling for **Darkest AFK**, a structured feedback prioritization workflow for **Dig Dig Die**, and retention/friction analysis for **Vacation Cafe Simulator** from current-company support-facing work.
+- Turned fragmented player feedback from Steam, Discord, and community channels into structured priorities, including **23 tracked items** for Dig Dig Die with **6 critical bug/UX issues** and **3 repeat feedback themes**.
+- Built a bilingual operator-facing compensation catalog for Darkest AFK with **112+ indexed items**, search and filtering, and standardized package assembly logic for support/admin workflows.
+- Produced a retention/friction analysis for Vacation Cafe Simulator that mapped community signals into testable QoL and progression hypotheses without exposing private operating details.
+- Worked across support, admin, product, and development contexts, translating noisy player pain points into next actions and clearer escalation narratives.
 
 ### Customer Success Lead / Senior Support Specialist
-**Mover Bridge (Aptos Ecosystem)** | *Remote* | *Aug 2023 – Present*
-- Designed internal admin automation that replaced repetitive manual compensation operations and improved throughput consistency.
-- Helped implement LLM-based support workflows for FAQ and first-line case reduction.
-- Built webhook-assisted triage/routing patterns that improved response quality and escalation speed.
+**Mover Bridge (Aptos Ecosystem)** | *Aug 2023 – Present*
+- Improved first response time by **35%** through webhook-assisted routing, issue tagging, and escalation triage.
+- Reduced repetitive tier-1 volume by **45%** with AI-assisted support workflows and better knowledge operations.
+- Built an internal admin workflow for failed-transaction compensation, cutting manual operational load by **70%**.
+- Resolved high-stakes bridge incidents involving wallets, stuck transactions, and user funds while coordinating recovery paths and trust-preserving communication.
+- Authored and maintained structured help content for bridge flows, wallet compatibility, gas issues, and transaction status confusion.
 
 ### Community & Customer Success Manager
-**Phaver / Coinlist / Mover** | *Remote* | *Jan 2021 – Aug 2023*
-- Managed high-volume support/community streams during growth events and launches.
-- Produced user-facing technical explainers and reduced repetitive inbound confusion.
-- Acted as QA bridge between players and development team via structured bug reporting.
+**Phaver / CoinList / Mover** | *Jan 2021 – Aug 2023*
+- Managed high-volume support and community communication during launches, onboarding waves, and volatility-heavy periods.
+- Guided non-technical users through wallets, KYC, deposits, onboarding friction, and first-use troubleshooting.
+- Built user-facing explainers and support content that turned complex product behavior into clear step-by-step guidance.
+- Escalated recurring bugs and user pain points through structured QA-style reporting and product-facing summaries.
 
-## Selected Projects (Portfolio)
-1. **Darkest AFK — Support Automation Catalog**  
-   Local artifact: `/Users/grisaavdeev/study/darkest-afk-item-catalog/docs/index.html`
-2. **Vacation Cafe Simulator — Retention & Cozy Flow Analysis**  
-   Local artifact: `/Users/grisaavdeev/Desktop/vcs-dashboard-clean/vacation insight.txt`
-3. **Dig Dig Die — Bug/Feedback Intelligence Dashboard**  
-   Local artifacts: `/Users/grisaavdeev/Desktop/dig_dig_die_bug_dashboard_ru.html`, `/Users/grisaavdeev/Desktop/dig_dig_die_bug_reports_ru.csv`
+## Selected Projects (Public Case Studies)
+1. **Darkest AFK — Support Tooling for Faster Player Recovery**  
+   Public case: `https://codeavd.github.io/Portfolio/cases/darkest-afk.html`
+2. **Dig Dig Die — Multi-Source Feedback Intelligence and Prioritization**  
+   Public case: `https://codeavd.github.io/Portfolio/cases/dig-dig-die.html`
+3. **Vacation Cafe Simulator — Retention / Friction Analysis for Better Decisions**  
+   Public case: `https://codeavd.github.io/Portfolio/cases/vacation-cafe.html`
+
+## Core Skills
+- **Support Ops:** ticket triage, incident communication, escalation management, knowledge base operations, workflow documentation.
+- **Technical Support:** issue reproduction, structured bug reporting, wallet and transaction troubleshooting, operator tooling.
+- **Automation:** webhook-based routing, AI-assisted support workflows, admin tooling, process standardization.
+- **Customer Insight Translation:** feedback clustering, prioritization, retention/friction analysis, backlog-ready summaries.
+- **Tools:** Zendesk, Freshdesk, Intercom, Jira, Discord, HTML/CSS/JS, CSV analysis, SQL basics, Python/Pandas basics.
 
 ## Education
 - **Volgograd State Medical University** — General Medicine, 2019–2024
 - **QA Engineer Training** — Manual testing, bug tracking, SDLC fundamentals
 
-## Positioning Statement
-Support operator who ships analyst-grade decisions and can scale into Product Analyst ownership in live game environments.
+## Tailoring Rules
+- Maintain one master support-ops narrative and change only headline, summary emphasis, bullet order, skills order, and 1-2 keywords per application.
+- **Web3 / FinTech support variant:** prioritize bridge incidents, wallet troubleshooting, trust-preserving communication, and support automation.
+- **SaaS / technical support variant:** prioritize ticket operations, knowledge base design, escalation quality, issue reproduction, and workflow efficiency.

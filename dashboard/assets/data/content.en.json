@@ -1,43 +1,43 @@
 {
   "meta": {
     "name": "Grigorii",
-    "title": "Product Analyst (Game Analytics & AI Integration)",
-    "updatedAt": "2026-03-05"
+    "title": "Support Ops / Technical Support Specialist",
+    "updatedAt": "2026-03-12"
   },
   "nav": {
-    "projects": "Projects",
-    "competencies": "Competencies",
-    "roadmap": "Roadmap",
+    "projects": "Case Studies",
+    "competencies": "Proof Themes",
+    "roadmap": "Role Fit",
     "contact": "Contact"
   },
   "sections": {
-    "competenciesTitle": "Competency Dashboard",
-    "competenciesNote": "Core capabilities backed by shipped artifacts.",
-    "projectsTitle": "Projects Mosaic",
-    "projectsNote": "Story + KPI hybrid case studies with decision context.",
-    "roadmapTitle": "30/60/90 Transition Plan",
-    "roadmapNote": "Internal growth in Heapp plus external interview pipeline.",
-    "contactTitle": "Contact & Positioning",
-    "contactNote": "Open to Product Analyst / Game Analyst / AI Ops conversations."
+    "competenciesTitle": "Proof Themes",
+    "competenciesNote": "Three themes that make the role fit obvious in a six-second scan.",
+    "projectsTitle": "Case Studies",
+    "projectsNote": "Support automation, feedback intelligence, and retention-friction analysis from current-company work.",
+    "roadmapTitle": "Role Fit",
+    "roadmapNote": "The external role families this pack is built for.",
+    "contactTitle": "Contact and Positioning",
+    "contactNote": "Remote-first and optimized for Support Ops, Technical Support, Customer Success, and integration-heavy support roles."
   },
   "hero": {
-    "kicker": "Air-Soft Cold Portfolio",
-    "headline": "From support signals to product decisions.",
-    "subheadline": "I build analyst-grade outputs from player feedback and operations data, then turn them into prioritized product actions.",
+    "kicker": "Hybrid Career Pack",
+    "headline": "Support work with proof in automation, feedback intelligence, and friction analysis.",
+    "subheadline": "External-first public pack for Support Ops and Technical Support roles, using selected Heapp Games case studies as proof of leverage rather than a public product pivot.",
     "ctas": [
       {
-        "label": "Open CV",
-        "href": "../draft_resume.md",
+        "label": "Open Resume",
+        "href": "resume.html",
         "kind": "primary"
       },
       {
-        "label": "Open Case Pack",
-        "href": "../README.md",
+        "label": "Open GitHub Repo",
+        "href": "https://github.com/CodeAvd/Portfolio",
         "kind": "secondary"
       },
       {
-        "label": "Contact",
-        "href": "#contact",
+        "label": "View Case Studies",
+        "href": "#projects",
         "kind": "secondary"
       }
     ]
@@ -48,228 +48,230 @@
       "label": "All"
     },
     {
-      "id": "product-analytics",
-      "label": "Product Analytics"
+      "id": "support-automation",
+      "label": "Support Automation"
     },
     {
       "id": "feedback-intelligence",
       "label": "Feedback Intelligence"
     },
     {
-      "id": "support-automation",
-      "label": "Support Automation"
+      "id": "retention-friction",
+      "label": "Retention / Friction"
     },
     {
-      "id": "ai-integration",
-      "label": "AI Integration"
+      "id": "cross-functional-escalation",
+      "label": "Cross-Functional Escalation"
     }
   ],
   "kpis": [
     {
       "id": "kpi-1",
-      "label": "Structured Product Items",
-      "value": "23",
-      "note": "Dig Dig Die consolidated priorities"
+      "label": "Support Automation",
+      "value": "112+ indexed items",
+      "note": "Darkest AFK operator tooling for repetitive recovery work"
     },
     {
       "id": "kpi-2",
-      "label": "Critical Bug/UX Themes",
-      "value": "6",
-      "note": "Mapped to P0/P1/P2 with KPI impact"
+      "label": "Feedback Intelligence",
+      "value": "23 structured priorities",
+      "note": "Dig Dig Die signals translated into one prioritized view"
     },
     {
       "id": "kpi-3",
-      "label": "Catalog Coverage",
-      "value": "112+",
-      "note": "Darkest AFK searchable support items"
+      "label": "Retention / Friction",
+      "value": "6-8h friction signal",
+      "note": "Vacation Cafe player pain clustered into testable hypotheses"
     },
     {
       "id": "kpi-4",
-      "label": "Domain Experience",
+      "label": "Support Credibility",
       "value": "3.5+ years",
-      "note": "Support + product-adjacent operations"
+      "note": "Gamedev, Web3, and FinTech support environments"
     }
   ],
   "projects": [
     {
       "id": "project-darkest-afk",
       "slug": "darkest-afk",
-      "title": "Darkest AFK Support Compensation Catalog",
-      "tagline": "Support workflow automation",
-      "context": "Darkest AFK support/admin workflows required fast, consistent compensation package assembly.",
-      "problem": "Manual item lookup and JSON payload preparation created repetitive friction and formatting risk.",
+      "title": "Darkest AFK - Support Tooling for Faster Player Recovery",
+      "tagline": "Support automation and operator efficiency",
+      "context": "Support and admin workflows needed a faster, safer way to prepare compensation packages without repeated manual lookup and formatting.",
+      "problem": "Manual item search and package prep created repetitive friction and made consistency harder to maintain.",
       "dataSources": [
-        "items.json metadata",
-        "Support workflow requirements",
-        "init_info payload format"
+        "Support workflow pain points",
+        "Existing item metadata",
+        "Internal package assembly requirements"
       ],
       "method": [
-        "Built static tool in HTML/CSS/JS",
-        "Added search, filters, bilingual labels, multi-select and quantity controls",
-        "Implemented one-click JSON generation and accessibility shortcuts"
+        "Built a static operator tool with search, filtering, bilingual labels, and standardized package-prep logic",
+        "Optimized the flow for repetitive internal support work rather than presentation-only browsing",
+        "Created a cleaner path from item lookup to repeatable output"
       ],
       "insights": [
-        "Deterministic output is more valuable than visual complexity for operators",
-        "Presets and bulk actions reduce cognitive load in repetitive support tasks"
+        "Operator tooling matters when the same recovery flow happens repeatedly",
+        "Consistency is as important as speed in compensation work",
+        "Workflow design can remove support friction without changing team structure"
       ],
-      "decision": "Ship an interface-first compensation workflow with standardized payload generation.",
+      "decision": "Package the story publicly as support automation, not as a product-build narrative.",
       "impact": [
-        "112+ indexed items in one searchable catalog",
-        "Unified compensation package format",
-        "Lower manual copy/paste friction"
+        "112+ indexed items in one operator-facing tool",
+        "Clearer and more repeatable package preparation",
+        "Clear proof of support tooling and process thinking"
       ],
       "nextExperiment": [
-        "Track median package assembly time",
-        "Measure payload formatting error rate",
-        "Compare compensation-related handling time before/after"
+        "Measure package-prep time before and after tool adoption",
+        "Track formatting mistakes and repeat corrections",
+        "Identify the next repetitive support workflow worth standardizing"
       ],
       "artifacts": [
         {
-          "label": "Live catalog (local)",
-          "path": "file:///Users/grisaavdeev/study/darkest-afk-item-catalog/docs/index.html"
+          "label": "Read case page",
+          "path": "cases/darkest-afk.html"
         },
         {
-          "label": "Repository",
-          "path": "https://github.com/gavdeev/darkest-afk-item-catalog"
+          "label": "Open GitHub one-pager",
+          "path": "https://github.com/CodeAvd/Portfolio/blob/main/case_01_darkest_afk_one_pager_en.md"
         }
       ],
       "chips": [
-        "112+ items",
-        "JSON generation",
-        "Bilingual UX"
+        "112+ indexed items",
+        "Bilingual operator UX",
+        "Standardized package prep"
       ],
       "competencies": [
         "support-automation",
-        "ai-integration"
+        "cross-functional-escalation"
       ],
       "previewImage": "assets/img/project-darkest-afk.svg"
     },
     {
-      "id": "project-vacation-cafe",
-      "slug": "vacation-cafe",
-      "title": "Vacation Cafe Simulator Retention Analysis",
-      "tagline": "Cozy flow & retention intelligence",
-      "context": "The team needed decision-ready understanding of where cozy gameplay turns into friction.",
-      "problem": "Player sentiment across community channels was fragmented and hard to convert into product actions.",
-      "dataSources": [
-        "Steam feedback snapshots",
-        "Discord reports and discussions",
-        "Genre benchmark observations"
-      ],
-      "method": [
-        "Clustered qualitative feedback into repeatable friction themes",
-        "Mapped themes to D1/D7/D30 and session/churn proxies",
-        "Built action-oriented hypotheses for short validation cycles"
-      ],
-      "insights": [
-        "Friction rises around 6-8 hours for a subset of players",
-        "Complexity spike around Level 4-5 can break cozy flow",
-        "Sensory quality and low-friction interactions strongly affect retention"
-      ],
-      "decision": "Create a practical retention recommendation set with KPI mapping and rollout logic.",
-      "impact": [
-        "Converted unstructured discussion into a product-ready analysis artifact",
-        "Defined hypotheses for QoL, progression pacing and engagement loops"
-      ],
-      "nextExperiment": [
-        "Run one friction-reduction test",
-        "Track D1 delta and quit<10m",
-        "Measure session completion change"
-      ],
-      "artifacts": [
-        {
-          "label": "Main insight file (local)",
-          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/vacation%20insight.txt"
-        },
-        {
-          "label": "Case notes",
-          "path": "file:///Users/grisaavdeev/Desktop/vcs-dashboard-clean/GDD/09_VCS_Market_Feedback_Analysis_2026-03-04.md"
-        }
-      ],
-      "chips": [
-        "6-8h friction signal",
-        "D1/D7/D30 mapping",
-        "Actionable hypotheses"
-      ],
-      "competencies": [
-        "product-analytics",
-        "feedback-intelligence"
-      ],
-      "previewImage": "assets/img/project-vacation-cafe.svg"
-    },
-    {
       "id": "project-dig-dig-die",
       "slug": "dig-dig-die",
-      "title": "Dig Dig Die Feedback Intelligence Dashboard",
-      "tagline": "Multi-source bug and backlog intelligence",
-      "context": "Dig Dig Die required one structured lens for bugs, UX risk and player feedback priorities.",
-      "problem": "Raw Steam/Discord/community data was noisy and difficult to prioritize across teams.",
+      "title": "Dig Dig Die - Multi-Source Feedback Intelligence and Prioritization",
+      "tagline": "Feedback intelligence and clearer escalation",
+      "context": "Steam, Discord, and community reports contained recurring bug and UX signals, but the feedback was fragmented and duplicated across channels.",
+      "problem": "Support and product conversations were slower because the same issues were appearing in multiple formats without a shared structure.",
       "dataSources": [
-        "Steam player feedback",
-        "Discord/community reports",
-        "Structured dashboard HTML and CSV outputs"
+        "Steam feedback snapshots",
+        "Discord and community reports",
+        "Creator and player commentary"
       ],
       "method": [
-        "Normalized signals into issue clusters",
-        "Added priority, effort, risk, horizon and KPI fields",
-        "Built P0/P1/P2 and 30/60/90 decision frame"
+        "Clustered raw feedback into repeat issue groups and feedback themes",
+        "Added simple priority framing to move from noise to next actions",
+        "Packed the result into a support-to-product escalation view"
       ],
       "insights": [
-        "23 structured items including 6 critical bug/UX issues",
-        "3 key feedback themes with business impact",
-        "High-risk areas concentrated in coop reliability and onboarding"
+        "23 structured items made the volume of player pain legible",
+        "6 critical bug or UX issues stood out as near-term risk",
+        "3 repeat feedback themes showed where user frustration was concentrating"
       ],
-      "decision": "Deliver backlog-ready prioritization with measurable KPI targets and implementation windows.",
+      "decision": "Publish the work as customer insight translation and prioritization quality, not as a raw data artifact.",
       "impact": [
-        "Traceable flow from raw feedback to prioritized actions",
-        "Faster alignment potential across support/product/dev"
+        "Faster path from public user complaints to structured escalation",
+        "Less duplication between support, product, and dev conversations",
+        "Clear proof of feedback intelligence inside a support-led narrative"
       ],
       "nextExperiment": [
-        "Ship top-2 P0 fixes",
-        "Measure Invite Success Rate and D1 over 2 weeks",
-        "Track support response/resolution trend"
+        "Track whether structured escalations shorten prioritization conversations",
+        "Measure how often duplicate complaints collapse into a single issue view",
+        "Repeat the same workflow for another noisy signal set"
       ],
       "artifacts": [
         {
-          "label": "Dashboard HTML (local)",
-          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_dashboard_ru.html"
+          "label": "Read case page",
+          "path": "cases/dig-dig-die.html"
         },
         {
-          "label": "Structured CSV (local)",
-          "path": "file:///Users/grisaavdeev/Desktop/dig_dig_die_bug_reports_ru.csv"
+          "label": "Open GitHub one-pager",
+          "path": "https://github.com/CodeAvd/Portfolio/blob/main/case_03_dig_dig_die_one_pager_en.md"
         }
       ],
       "chips": [
         "23 structured items",
         "6 critical issues",
-        "30/60/90 roadmap"
+        "3 repeat themes"
       ],
       "competencies": [
-        "product-analytics",
         "feedback-intelligence",
-        "ai-integration"
+        "cross-functional-escalation"
       ],
       "previewImage": "assets/img/project-dig-dig-die.svg"
+    },
+    {
+      "id": "project-vacation-cafe",
+      "slug": "vacation-cafe",
+      "title": "Vacation Cafe Simulator - Retention and Friction Analysis",
+      "tagline": "Retention-friction analysis as support-adjacent leverage",
+      "context": "Community and market feedback described points where the cozy loop started to feel repetitive or mechanically heavy, but the signals were not yet organized into actions.",
+      "problem": "The underlying player pain was real, but it was scattered across channels and not translated into testable next steps.",
+      "dataSources": [
+        "Steam review and feedback snapshots",
+        "Discord discussion samples",
+        "Genre and benchmark observations"
+      ],
+      "method": [
+        "Grouped repeat complaints into friction patterns instead of isolated anecdotes",
+        "Mapped the patterns to simple retention and session-quality questions",
+        "Proposed short-loop hypotheses a team could review quickly"
+      ],
+      "insights": [
+        "A repeat friction signal appeared around 6-8 hours for part of the player base",
+        "Complexity increased near Level 4-5 and changed the feel of the loop",
+        "This work is strongest as decision support, not as a full product-title pivot"
+      ],
+      "decision": "Keep the work in the pack as evidence of analytical leverage within a support-ops identity.",
+      "impact": [
+        "Clear public example of friction analysis and hypothesis framing",
+        "Better language for turning user pain into support-to-product escalation",
+        "Useful differentiator without breaking the support narrative"
+      ],
+      "nextExperiment": [
+        "Test whether the same framework helps in a SaaS onboarding or help-center context",
+        "Shorten the analysis into a one-page operating memo",
+        "Track whether teams act faster when friction patterns are named clearly"
+      ],
+      "artifacts": [
+        {
+          "label": "Read case page",
+          "path": "cases/vacation-cafe.html"
+        },
+        {
+          "label": "Open GitHub one-pager",
+          "path": "https://github.com/CodeAvd/Portfolio/blob/main/case_02_vacation_cafe_one_pager_en.md"
+        }
+      ],
+      "chips": [
+        "6-8h friction signal",
+        "Level 4-5 complexity spike",
+        "Short-loop hypotheses"
+      ],
+      "competencies": [
+        "feedback-intelligence",
+        "retention-friction"
+      ],
+      "previewImage": "assets/img/project-vacation-cafe.svg"
     }
   ],
   "roadmap": [
     {
-      "phase": "0-30 Days",
-      "window": "Mar 6 - Apr 4, 2026",
-      "focus": "Package evidence and secure internal 20% pilot slot",
-      "kpi": "Pilot scope approved + baseline metrics aligned"
+      "phase": "Support Ops Specialist",
+      "window": "Workflow automation | operator tooling",
+      "focus": "Best fit for teams that want fewer repetitive steps, cleaner processes, and stronger day-to-day support execution.",
+      "kpi": "Proof: Darkest AFK tooling, Mover automation, and knowledge operations work"
     },
     {
-      "phase": "31-60 Days",
-      "window": "Apr 5 - May 4, 2026",
-      "focus": "Run pilot cycle #1 and ship two analytical outputs",
-      "kpi": "At least one decision supported by analysis"
+      "phase": "Technical Support / Integration Support",
+      "window": "Escalation quality | issue reproduction",
+      "focus": "Best fit for products with complex journeys, debugging-heavy support, and a real need for structured issue translation.",
+      "kpi": "Proof: bridge incident handling, QA-style escalation, and Dig Dig Die signal clustering"
     },
     {
-      "phase": "61-90 Days",
-      "window": "May 5 - Jun 3, 2026",
-      "focus": "Pilot readout + transition path or external scale-up",
-      "kpi": "Clear internal path or 10-15% response rate externally"
+      "phase": "Customer Success",
+      "window": "Trust-heavy products | cross-functional communication",
+      "focus": "Best fit for roles where support needs to protect trust, guide users clearly, and convert recurring issues into better decisions.",
+      "kpi": "Proof: onboarding guidance, incident communication, and retention-friction insight work"
     }
   ],
   "contact": {
@@ -280,41 +282,46 @@
         "href": "mailto:grigorii584@gmail.com"
       },
       {
-        "label": "Phone",
-        "value": "+7-988-492-9938"
-      },
-      {
         "label": "Location",
-        "value": "Volgograd, Russia"
+        "value": "Russia | Remote"
       },
       {
-        "label": "LinkedIn",
-        "value": "Add LinkedIn URL",
-        "href": "#"
+        "label": "Languages",
+        "value": "Russian (native), English (B2)"
+      },
+      {
+        "label": "Portfolio",
+        "value": "codeavd.github.io/Portfolio",
+        "href": "https://codeavd.github.io/Portfolio/"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/CodeAvd/Portfolio",
+        "href": "https://github.com/CodeAvd/Portfolio"
       }
     ],
     "narrative": [
-      "I operate at the intersection of support reality, player signals, and product prioritization.",
-      "Current target role: Product Analyst (games), with focus on retention friction, quality signals, and AI-enabled workflows.",
-      "This dashboard is EN-first for hiring managers and product leads, with RU toggle for internal communication."
+      "This pack is built for external interviews first. The headline, summary logic, and project framing stay aligned across the resume, LinkedIn, Hirify, and portfolio.",
+      "The Heapp Games examples highlight operator thinking, customer insight translation, and analytical leverage while omitting private workflows and internal-only data.",
+      "Open to remote-first Support Ops, Technical Support, Customer Success, and support-heavy roles in Web3, FinTech, SaaS, and gamedev."
     ]
   },
   "footer": {
-    "version": "Portfolio Dashboard v1.0",
+    "version": "Hybrid Pack v2",
     "updatedPrefix": "Updated"
   },
   "modal": {
-    "openLabel": "Open details",
+    "openLabel": "Open case",
+    "artifactTitle": "Public assets",
     "fields": {
       "context": "Context",
       "problem": "Problem",
-      "dataSources": "Data Sources",
+      "dataSources": "Inputs",
       "method": "Method",
       "insights": "Insights",
-      "decision": "Decision",
+      "decision": "Packaging decision",
       "impact": "Impact",
-      "nextExperiment": "Next Experiment"
-    },
-    "artifactTitle": "Artifacts"
+      "nextExperiment": "Next experiment"
+    }
   }
 }
