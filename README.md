@@ -17,7 +17,7 @@ Public career pack for `Support Ops`, `Technical Support`, `Customer Success`, a
 - `dashboard/`
 
 ## Positioning
-- Support-first narrative with proof in workflow automation, customer insight translation, and escalation quality
+- Support-first narrative with proof in workflow automation, player feedback prioritization, and escalation quality
 - Current-company case studies are presented as selected public examples and omit private workflows or internal-only data
 - External goal: win interviews without diluting the support / technical support identity
 

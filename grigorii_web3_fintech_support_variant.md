@@ -1,12 +1,12 @@
 # Grigorii
 
-**Headline:** Technical Support / Support Ops Specialist | Web3 & FinTech | Customer Success | Workflow Automation  
+**Headline:** Support Ops / Technical Support Specialist | Web3, FinTech & GameDev  
 **Email:** grigorii584@gmail.com  
 **Phone:** +7-988-492-9938  
 **Location:** Russia | Remote
 
 ## Summary
-Technical support and support operations specialist with 3.5+ years across Web3, FinTech, and gamedev support environments. Strong in high-stakes incident communication, wallet and transaction troubleshooting, workflow automation, and cross-functional escalation. Recent support impact includes a 35% faster first response time, 45% lower repetitive tier-1 volume, and 70% less manual compensation handling.
+Support operations and technical support specialist with 3.5+ years across Web3, FinTech, and gamedev support environments. Strong in high-stakes incident communication, wallet and transaction troubleshooting, workflow automation, and cross-functional escalation. Recent support impact includes a 35% faster first response time, 45% lower repetitive tier-1 volume, and 70% less manual compensation handling.
 
 ## Use This Variant For
 - Web3 / FinTech support

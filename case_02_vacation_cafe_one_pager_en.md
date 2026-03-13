@@ -1,7 +1,7 @@
 # Vacation Cafe Simulator — Retention / Friction Analysis
 
 ## Public Angle
-Retention and friction analysis used as a support-adjacent differentiator.
+Player-friction analysis used as a support-adjacent differentiator.
 
 ## Context
 Community and market feedback described points where the “cozy” game loop started to feel repetitive or mechanically heavy, but those signals were not yet organized into actionable themes.
@@ -23,7 +23,7 @@ Community and market feedback described points where the “cozy” game loop st
 
 ## Transferable Value
 - Feedback intelligence
-- Retention / friction analysis
+- Player-friction analysis
 - Customer insight translation
 - Support-to-product escalation
 

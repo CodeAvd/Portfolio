@@ -2,7 +2,7 @@
   "meta": {
     "name": "Grigorii",
     "title": "Support Ops / Technical Support Specialist",
-    "updatedAt": "2026-03-12"
+    "updatedAt": "2026-03-13"
   },
   "nav": {
     "projects": "Case Studies",
@@ -14,7 +14,7 @@
     "competenciesTitle": "Proof Themes",
     "competenciesNote": "Three themes that make the role fit obvious in a six-second scan.",
     "projectsTitle": "Case Studies",
-    "projectsNote": "Support automation, feedback intelligence, and retention-friction analysis from current-company work.",
+    "projectsNote": "Support automation, player feedback prioritization, and player friction analysis from current-company work.",
     "roadmapTitle": "Role Fit",
     "roadmapNote": "The external role families this pack is built for.",
     "contactTitle": "Contact and Positioning",
@@ -22,8 +22,8 @@
   },
   "hero": {
     "kicker": "Hybrid Career Pack",
-    "headline": "Support work with proof in automation, feedback intelligence, and friction analysis.",
-    "subheadline": "External-first public pack for Support Ops and Technical Support roles, using selected Heapp Games case studies as proof of leverage rather than a public product pivot.",
+    "headline": "Support work with proof in automation, feedback prioritization, and product-facing analysis.",
+    "subheadline": "External-first public pack for Support Ops and Technical Support roles, using selected Heapp Games case studies to show faster support execution, clearer escalations, and stronger product insight.",
     "ctas": [
       {
         "label": "Open Resume",
@@ -53,11 +53,11 @@
     },
     {
       "id": "feedback-intelligence",
-      "label": "Feedback Intelligence"
+      "label": "Feedback Prioritization"
     },
     {
       "id": "retention-friction",
-      "label": "Retention / Friction"
+      "label": "Player Friction"
     },
     {
       "id": "cross-functional-escalation",
@@ -69,19 +69,19 @@
       "id": "kpi-1",
       "label": "Support Automation",
       "value": "112+ indexed items",
-      "note": "Darkest AFK operator tooling for repetitive recovery work"
+      "note": "Darkest AFK internal tooling for repetitive recovery work"
     },
     {
       "id": "kpi-2",
-      "label": "Feedback Intelligence",
+      "label": "Feedback Prioritization",
       "value": "23 structured priorities",
       "note": "Dig Dig Die signals translated into one prioritized view"
     },
     {
       "id": "kpi-3",
-      "label": "Retention / Friction",
-      "value": "6-8h friction signal",
-      "note": "Vacation Cafe player pain clustered into testable hypotheses"
+      "label": "Player Friction",
+      "value": "6-8h pain point",
+      "note": "Vacation Cafe player pain translated into backlog-ready hypotheses"
     },
     {
       "id": "kpi-4",
@@ -148,8 +148,8 @@
     {
       "id": "project-dig-dig-die",
       "slug": "dig-dig-die",
-      "title": "Dig Dig Die - Multi-Source Feedback Intelligence and Prioritization",
-      "tagline": "Feedback intelligence and clearer escalation",
+      "title": "Dig Dig Die - Player Feedback Prioritization",
+      "tagline": "Customer feedback prioritization and clearer escalation",
       "context": "Steam, Discord, and community reports contained recurring bug and UX signals, but the feedback was fragmented and duplicated across channels.",
       "problem": "Support and product conversations were slower because the same issues were appearing in multiple formats without a shared structure.",
       "dataSources": [
@@ -167,11 +167,11 @@
         "6 critical bug or UX issues stood out as near-term risk",
         "3 repeat feedback themes showed where user frustration was concentrating"
       ],
-      "decision": "Publish the work as customer insight translation and prioritization quality, not as a raw data artifact.",
+      "decision": "Publish the work as customer feedback prioritization and escalation quality, not as a raw data artifact.",
       "impact": [
         "Faster path from public user complaints to structured escalation",
         "Less duplication between support, product, and dev conversations",
-        "Clear proof of feedback intelligence inside a support-led narrative"
+        "Clear proof of customer feedback prioritization inside a support-led narrative"
       ],
       "nextExperiment": [
         "Track whether structured escalations shorten prioritization conversations",
@@ -202,8 +202,8 @@
     {
       "id": "project-vacation-cafe",
       "slug": "vacation-cafe",
-      "title": "Vacation Cafe Simulator - Retention and Friction Analysis",
-      "tagline": "Retention-friction analysis as support-adjacent leverage",
+      "title": "Vacation Cafe Simulator - Player Friction Analysis",
+      "tagline": "Player friction analysis as support-adjacent leverage",
       "context": "Community and market feedback described points where the cozy loop started to feel repetitive or mechanically heavy, but the signals were not yet organized into actions.",
       "problem": "The underlying player pain was real, but it was scattered across channels and not translated into testable next steps.",
       "dataSources": [
@@ -223,7 +223,7 @@
       ],
       "decision": "Keep the work in the pack as evidence of analytical leverage within a support-ops identity.",
       "impact": [
-        "Clear public example of friction analysis and hypothesis framing",
+        "Clear public example of player-friction analysis and hypothesis framing",
         "Better language for turning user pain into support-to-product escalation",
         "Useful differentiator without breaking the support narrative"
       ],
@@ -243,7 +243,7 @@
         }
       ],
       "chips": [
-        "6-8h friction signal",
+        "6-8h pain point",
         "Level 4-5 complexity spike",
         "Short-loop hypotheses"
       ],
@@ -257,21 +257,21 @@
   "roadmap": [
     {
       "phase": "Support Ops Specialist",
-      "window": "Workflow automation | operator tooling",
+      "window": "Workflow automation | internal tooling",
       "focus": "Best fit for teams that want fewer repetitive steps, cleaner processes, and stronger day-to-day support execution.",
-      "kpi": "Proof: Darkest AFK tooling, Mover automation, and knowledge operations work"
+      "kpi": "Proof: Darkest AFK tooling, Mover automation, and knowledge base improvement work"
     },
     {
       "phase": "Technical Support / Integration Support",
       "window": "Escalation quality | issue reproduction",
       "focus": "Best fit for products with complex journeys, debugging-heavy support, and a real need for structured issue translation.",
-      "kpi": "Proof: bridge incident handling, QA-style escalation, and Dig Dig Die signal clustering"
+      "kpi": "Proof: bridge incident handling, QA-style escalation, and Dig Dig Die feedback prioritization"
     },
     {
       "phase": "Customer Success",
       "window": "Trust-heavy products | cross-functional communication",
       "focus": "Best fit for roles where support needs to protect trust, guide users clearly, and convert recurring issues into better decisions.",
-      "kpi": "Proof: onboarding guidance, incident communication, and retention-friction insight work"
+      "kpi": "Proof: onboarding guidance, incident communication, and player-friction insight work"
     }
   ],
   "contact": {
