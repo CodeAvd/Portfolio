@@ -9,11 +9,13 @@ Public career pack for `Support Ops`, `Technical Support`, `Customer Success`, a
 - Vacation Cafe case: `https://codeavd.github.io/Portfolio/cases/vacation-cafe.html`
 
 ## Public Pack Files
+- `grigorii_hybrid_support_ops_resume.pdf`
 - `grigorii_hybrid_support_ops_resume.md`
 - `grigorii_web3_fintech_support_variant.md`
 - `grigorii_saas_technical_support_variant.md`
 - `linkedin_profile_pack_en.md`
 - `hirify_profile_pack_en.md`
+- `hirify_fill_quickcopy_ru.md`
 - `dashboard/`
 
 ## Positioning
